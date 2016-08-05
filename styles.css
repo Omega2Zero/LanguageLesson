@@ -1,0 +1,271 @@
+/** General styles (scope: all of lesson) **/
+.path-mod-languagelesson .contents,
+.path-mod-languagelesson .standardtable,
+.path-mod-languagelesson .mform .box.contents,
+.path-mod-languagelesson .invisiblefieldset.fieldsetfix tr {text-align: left;}
+.path-mod-languagelesson #layout-table {width: 100%;}
+.path-mod-languagelesson .edit_buttons form,
+.path-mod-languagelesson .edit_buttons input {display: inline;}
+.path-mod-languagelesson .userinfotable .cell,
+.path-mod-languagelesson .userinfotable .userpicture {vertical-align: middle;}
+.path-mod-languagelesson .invisiblefieldset.fieldsetfix {display: block;}
+.path-mod-languagelesson .slideshow {overflow: auto;padding: 15px;}
+.path-mod-languagelesson .menu .menuwrapper {max-height: 400px;overflow: auto;vertical-align: top;margin-bottom: 10px;}
+.path-mod-languagelesson .menu ul {list-style: none;padding: 5px 0px 0px 5px;margin: 0px;}
+.path-mod-languagelesson .menu ul li {padding-bottom: 5px;}
+.path-mod-languagelesson .skip {position: absolute;top: -1000em;width: 20em;}
+.path-mod-languagelesson .branchbuttoncontainer.horizontal div,
+.path-mod-languagelesson .branchbuttoncontainer.horizontal form {display: inline;}
+.path-mod-languagelesson .firstpageoptions {width:30%;margin-left:35%;margin-top:1em;}
+.path-mod-languagelesson .progress_bar_table,
+.path-mod-languagelesson .progress_bar_completed,
+.path-mod-languagelesson .progress_bar_todo {padding: 0;margin: 0;}
+.path-mod-languagelesson .progress_bar_token {height: 20px;width: 5px;padding: 0;margin: 0;}
+.path-mod-languagelesson .edit_pages_box .addlinks {margin:0;margin-bottom:1em;}
+.path-mod-languagelesson .progress_bar_completed {background-color:green; text-align:right; vertical-align:middle; color:#FFF;}
+
+.path-mod-languagelesson .resourcecontent {text-align: center;}
+/*.path-mod-languagelesson table td{ }*/
+/**
+ * Style for view.php
+ **/
+#page-mod-languagelesson-view .password-form .submitbutton {display: inline;}
+.path-mod-languagelesson .reviewessay {width:40%; border:1px solid #DDDDDD; background-color: #EEEEEE;}
+
+.path-mod-languagelesson.dir-rtl .contents,
+.path-mod-languagelesson.dir-rtl .standardtable,
+.path-mod-languagelesson.dir-rtl .mform .box.contents,
+.path-mod-languagelesson.dir-rtl .invisiblefieldset.fieldsetfix tr {text-align: right;}
+
+/***
+ *** Lesson Grader
+ ***/
+
+.path-mod-languagelesson .grader {margin-left:auto; margin-right:auto;border-collapse:separate;border-spacing:2px 0px;}
+.path-mod-languagelesson .grader_content_column_cell {vertical-align: top;}
+.path-mod-languagelesson #stunames_column_cell {width: 20%;}
+.path-mod-languagelesson #lesson_map_cell {width: 60%;height:10px}
+.path-mod-languagelesson #right_column_cell {width: 20%;}
+.path-mod-languagelesson #languagelesson_map_container {width:900px;overflow-x:scroll;}
+.path-mod-languagelesson .item_cell {border: 1px black solid;padding-bottom: 1em;padding-top: 1em;}
+.path-mod-languagelesson .header_cell {	border-left: 1px black solid;padding-left:0px;padding-right:0px;}
+.path-mod-languagelesson .question_name {display:none;}
+.path-mod-languagelesson #assign_grade_column_header_cell {width: 30px;border-left: 0px;white-space: nowrap;}
+.path-mod-languagelesson #saved_grade_column_header_cell {white_space: nowrap;}
+
+.path-mod-languagelesson .rotate-text {
+	/* text-rotation properties for different browsers */
+	/*-webkit-transform: rotate(270deg); /* Safari & Chrome */
+	/*-moz-transform: rotate(270deg); /* Mozilla */
+	/*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); /* Netscape (IE) */
+	/*-o-transform: rotate(270deg); /* Opera */
+
+	text-align:center;
+	vertical-align:center;
+}
+
+.path-mod-languagelesson #student_column_header_cell {border: none;}
+.path-mod-languagelesson .stuname_cell {alignment-baseline: middle;width:50px;position: absolute;left:30px;background-color:white;opacity:1;}
+.path-mod-languagelesson .student_row {height: 30px;width:10px;}
+.path-mod-languagelesson .grader_header_row {height: 25px;}
+.path-mod-languagelesson #stunames_column {text-align: right;width: 100%;white-space: nowrap;}
+.path-mod-languagelesson .eob_cell {width: 1px;background-color: black;}
+.path-mod-languagelesson .td .bt_border_cell {width: 1px;background-color: gray;height:10px;}
+.path-mod-languagelesson .td .bt_title_cell {background-color:black;padding:10px;height:5px;}
+.path-mod-languagelesson .offset_row {height: 20px;}
+.path-mod-languagelesson .branch_title_cell {white-space: nowrap;}
+.path-mod-languagelesson holistic_grade_box {width: 100px;}
+.path-mod-languagelesson #sentemailsnotifier {color: blue;text-align:center;}
+
+
+
+/* Legend styles */
+.path-mod-languagelesson .leg_table {margin-left:auto;margin-right:auto;}
+
+.path-mod-languagelesson .legend {font-size:.9em;}
+
+.path-mod-languagelesson #multimedia_header {font-size:1em;text-align:center;border-top:2px black solid;}
+
+.path-mod-languagelesson .leg_color_cell {width:40px;}
+
+.path-mod-languagelesson .leg_name_cell {width: 160px;}
+
+.path-mod-languagelesson .noselect {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+
+
+/*
+Grader cell colors
+
+For medium-sized hex chart, see: http://html-color-codes.com/
+For hardcore hex chart, see: http://www.december.com/html/spec/colorhex.html
+*/
+
+.path-mod-languagelesson .autocorrect {background-color:green;}
+.path-mod-languagelesson .autowrong {background-color:red;}
+.path-mod-languagelesson .no_submission {background-color:gray;}
+.path-mod-languagelesson .studentviewed {background-color:bisque;}
+.path-mod-languagelesson .new {background-color:orange;}
+.path-mod-languagelesson .commented {background-color:yellow;}
+.path-mod-languagelesson .viewed {background-color:LightBlue;}
+.path-mod-languagelesson .resubmit {background-color:purple;}
+
+
+/***
+ *** Lesson respond_window
+ ***/
+
+#mod-languagelesson-respond_window #grade_area {
+	width:100%;
+	text-align:right;
+	padding-right:15px;
+}
+
+#mod-languagelesson-respond_window #grade {
+	width: 50px;
+}
+
+#mod-languagelesson-respond_window #student_picture_area {
+	padding: 10px;
+}
+
+#mod-languagelesson-respond_window #text_response_area .fixed_height_row {
+	height: 225px;
+}
+
+/* the FB submit button container div */
+#mod-languagelesson-respond_window #feedback_submit_container {
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#mod-languagelesson-respond_window #submitted_feedback_file_container {
+	height:70px;
+}
+
+#mod-languagelesson-respond_window #submit_button_container {
+	width:100%;
+	text-align:center;
+}
+
+#mod-languagelesson-respond_window .submit_form_button {
+	background-color:#fff;
+	width: 125px;
+}
+
+#mod-languagelesson-respond_window .submit_row_cell {
+	width:25%;
+}
+
+#mod-languagelesson-respond_window .nav_button {
+	width: 150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#mod-languagelesson-respond_window #nav_table {
+	width: 100%;
+}
+
+#mod-languagelesson-respond_window .thiscell {
+	text-align:center;
+}
+
+/** Feedback table styles **/
+#mod-languagelesson-respond_window #feedback_area {
+	height: 100%;
+}
+
+#mod-languagelesson-respond_window .feedbackTable {
+	height: 100%;
+	width: 100%;
+}
+
+#mod-languagelesson-respond_window .teacherPics {
+	list-style: none;
+	height: 3em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#mod-languagelesson-respond_window .teacherPics li {
+	display: block;
+	float: left;
+	position: relative;
+	top: 3px;
+	height: 34px;
+	padding: 5px 5px 7px;
+	border-top: 2px solid #bbbbbb;
+	border-right: 2px solid #bbbbbb;
+	border-left: 2px solid #bbbbbb;
+}
+
+#mod-languagelesson-respond_window #top_half {
+	width: 100%;
+	height: 300px;
+}
+
+#mod-languagelesson-respond_window .contentRow {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	height: 100%;
+}
+
+#mod-languagelesson-respond_window #audioSubmissionString {
+	text-align: center;
+	font-style: italic;
+	font-size: 1.5em;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#mod-languagelesson-respond_window #top_half .halfcell {
+	width: 50%;
+}
+
+
+/** submission table styles **/
+#mod-languagelesson-respond_window #studentSubmissionCell {
+	padding: 20px;
+}
+
+#mod-languagelesson-respond_window #studentSubmissionTable {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 100%;
+}
+
+#mod-languagelesson-respond_window #studentSubmissionTable td {
+	border: 1px solid #cccccc;
+	padding: 5px 10px;
+}
+
+#mod-languagelesson-respond_window #studentPicture {
+	text-align: center;
+	padding: 5px;
+	height: 15%;
+}
+
+#mod-languagelesson-respond_window .subheader {
+	text-align: center;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+
+/** added to fix hovering over selected question type issue **/
+.tabrow0 .here a:hover {
+	background-image: url("pix/tab/left.gif");
+}
